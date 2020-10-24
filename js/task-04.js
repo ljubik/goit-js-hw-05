@@ -30,6 +30,7 @@ append(str){
    
    prepend(str){
     this._value = str + this._value 
+    // this._value = str.concat(this.value) 
      return this._value
    }
    
